@@ -77,19 +77,21 @@ button {
   text-align: center;
   font-size: 1.25rem;
   padding: 1rem;
-  width: 100%;
+  width: 15rem;
   transition: all 0.5s;
   cursor: pointer;
+  margin: 5px;
 }
 
-button span {
+.button span {
+  cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-button span::after {
-  content: '»';
+.button span:after {
+  content: '\00bb';
   position: absolute;
   opacity: 0;
   top: 0;
@@ -97,15 +99,14 @@ button span::after {
   transition: 0.5s;
 }
 
-button:hover span {
+.button:hover span {
   padding-right: 25px;
 }
 
-button:hover span::after {
+.button:hover span:after {
   opacity: 1;
   right: 0;
 }
-
 
 p {
   margin-top: 0.5rem;
@@ -120,7 +121,7 @@ button:hover + p {
   opacity: 1;
 }
 
-/* Media Query für kleinere Bildschirme */
+
 @media (max-width: 768px) {
   .hero-content h1 {
     font-size: 2rem;

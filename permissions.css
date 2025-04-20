@@ -49,13 +49,43 @@ body {
 .hero-main {
   flex: 1;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  margin-top: -5rem;
+  padding: 2rem;
+  gap: 2rem;
   z-index: 1;
 }
 
-.description-box {
+.hero-main p {
+  font-size: 1.5rem;
+  color: white;
+  font-family: Libre Baskerville;
+  margin-bottom: 35rem;
+  z-index: 1;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.description {
+  max-width: 1300px;
+  width: 90%;
+  text-align: center;
+}
+
+.description p {
+  font-size: 1.5rem;
+  color: white;
+  font-family: Libre Baskerville;
+  margin: 0;
+}
+
+.permission-box {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   border-style: solid;
@@ -63,16 +93,19 @@ body {
   border-color: #141414;
   border-radius: 15px;
   padding: 1.5rem;
-  max-width: 800px;
-  width: 90%;
-  text-align: left;
-  margin: 2rem;
+  width: 600px;
+  font-family: Libre Baskerville;
 }
 
-.description-box p {
-  margin: 0;
-  font-size: 1.1rem;
-  line-height: 1.6;
+.permission-box h3 {
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
+.permission-box ul {
+  margin: 0.5rem 0 0;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 
@@ -81,8 +114,17 @@ body {
     font-size: 2rem;
   }
 
-  .description-box {
+  .yes-yes {
     padding: 1rem;
     font-size: 1rem;
+  }
+
+  .box-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .permission-box {
+    width: 90%;
   }
 }
