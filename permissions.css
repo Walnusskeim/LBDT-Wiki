@@ -108,15 +108,28 @@ body {
   line-height: 1.5;
 }
 
+.exception-text {
+  color: white;
+  font-family: Libre Baskerville;
+}
+
+.exception-text h3 {
+  margin-top: 0;
+  font-size: 1.3rem;
+  text-align:center;
+}
+
+.exception-text p {
+  margin-top: 0;
+  font-size: 1.3rem;
+  text-align:center;
+  max-width: 1300px;
+}
+
 
 @media (max-width: 768px) {
   .hero-header h1 {
     font-size: 2rem;
-  }
-
-  .yes-yes {
-    padding: 1rem;
-    font-size: 1rem;
   }
 
   .box-container {
