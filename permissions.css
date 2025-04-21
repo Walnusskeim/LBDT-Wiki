@@ -111,18 +111,17 @@ body {
 .exception-text {
   color: white;
   font-family: Libre Baskerville;
+  text-align: center;
 }
 
 .exception-text h3 {
   margin-top: 0;
-  font-size: 1.3rem;
-  text-align:center;
+  font-size: 1.4rem;
 }
 
 .exception-text p {
   margin-top: 0;
-  font-size: 1.3rem;
-  text-align:center;
+  font-size: 1.4rem;
   max-width: 1300px;
 }
 
@@ -139,5 +138,9 @@ body {
 
   .permission-box {
     width: 90%;
+  }
+  
+  .exception-text {
+	width: 90%;  
   }
 }
