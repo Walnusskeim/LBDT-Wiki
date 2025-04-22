@@ -1,14 +1,13 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background: url("pics/landing.png") center/cover no-repeat;
+  background: url("pics/landing.png") center/cover no-repeat fixed;
   height: 100vh;
   position: relative;
-  overflow: hidden;
  }
 
 .overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   height: 100%;
@@ -20,7 +19,7 @@ body {
 .hero {
   position: relative;
   z-index: 1;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }

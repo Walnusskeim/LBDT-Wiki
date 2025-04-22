@@ -13,7 +13,7 @@ html, body {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background-image: url(pics/landing.png);
+  background-image: url(pics/landing.png) center/cover no-repeat fixed;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -24,7 +24,7 @@ html, body {
 }
 
 .overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
