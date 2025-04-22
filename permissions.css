@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background: url("pics/landing.png");
+  background: url("pics/landing.png") center/cover no-repeat fixed;
   height: 100vh;
   position: relative;
  }
