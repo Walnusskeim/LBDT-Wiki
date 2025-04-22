@@ -4,7 +4,6 @@ body {
   background: url("pics/landing.png") center/cover no-repeat;
   height: 100vh;
   position: relative;
-  overflow: hidden;
 }
 
 .overlay {
@@ -20,7 +19,7 @@ body {
 .hero {
   position: relative;
   z-index: 1;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }

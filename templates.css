@@ -1,14 +1,13 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background: url("pics/landing.png") center/cover no-repeat;
-  height: 100vh;
+  background: url("pics/landing.png") center/cover no-repeat fixed;
+  height: auto;
   position: relative;
-  overflow: hidden;
- }
+}
 
 .overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   height: 100%;
@@ -20,7 +19,7 @@ body {
 .hero {
   position: relative;
   z-index: 1;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -64,14 +63,6 @@ body {
   z-index: 1;
 }
 
-.box-container {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  padding: 2rem;
-  flex-wrap: wrap;
-}
-
 .description {
   max-width: 1300px;
   width: 90%;
@@ -83,6 +74,14 @@ body {
   color: white;
   font-family: Libre Baskerville;
   margin: 0;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
 }
 
 .permission-box {
@@ -100,29 +99,13 @@ body {
 .permission-box h3 {
   margin-top: 0;
   font-size: 1.3rem;
-}
-
-.permission-box ul {
-  margin: 0.5rem 0 0;
-  font-size: 1.2rem;
-  line-height: 1.5;
-}
-
-.exception-text {
-  color: white;
-  font-family: Libre Baskerville;
   text-align: center;
 }
 
-.exception-text h3 {
-  margin-top: 0;
-  font-size: 1.4rem;
-}
-
-.exception-text p {
-  margin-top: 0;
-  font-size: 1.4rem;
-  max-width: 1300px;
+.permission-box p {
+  margin: 0.5rem 0 0;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 
@@ -138,9 +121,5 @@ body {
 
   .permission-box {
     width: 90%;
-  }
-  
-  .exception-text {
-	width: 90%;  
   }
 }

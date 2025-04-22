@@ -20,6 +20,7 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 4.5rem;
 }
 
 .overlay {
@@ -51,6 +52,39 @@ html, body {
   font-family: Libre Baskerville;
   z-index: 1;
   margin-bottom: 2rem;
+}
+
+.site-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-family: Libre Baskerville;
+  font-size: 1rem;
+  z-index: 100;
+}
+
+a:link {
+  text-decoration: none;
+  color: gold;
+}
+
+a:visited {
+  text-decoration: none;
+  color: gold;
+}
+
+a:hover {
+  text-decoration: none;
+  color: hotpink;
+}
+
+a:active {
+  text-decoration: none;
 }
 
 .buttons {
@@ -106,19 +140,6 @@ button {
 .button:hover span:after {
   opacity: 1;
   right: 0;
-}
-
-p {
-  margin-top: 0.5rem;
-  font-size: 1rem;
-  font-family: Libre Baskerville;
-  color: white;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-button:hover + p {
-  opacity: 1;
 }
 
 
