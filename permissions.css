@@ -59,9 +59,19 @@ body {
   font-size: 1.5rem;
   color: white;
   font-family: Libre Baskerville;
+  margin-bottom: 2rem; /* Geändert von 35rem auf 2rem */
+  z-index: 1;
+}
+
+/*
+.hero-main p {
+  font-size: 1.5rem;
+  color: white;
+  font-family: Libre Baskerville;
   margin-bottom: 35rem;
   z-index: 1;
 }
+*/
 
 .box-container {
   display: flex;
