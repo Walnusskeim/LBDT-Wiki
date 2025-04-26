@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Libre Baskerville', sans-serif;
   background: url("pics/landing.png") center/cover no-repeat fixed;
-  height: 100vh;
+  height: auto;
   position: relative;
 }
 
@@ -25,20 +25,20 @@ body {
 }
 
 .hero-header {
-  padding: 2rem;
+  padding: 1.5rem;
   text-align: center;
   z-index: 1;
 }
 
 .hero-header h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: white;
   font-family: Libre Baskerville;
   margin: 0;
 }
 
 .text {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: white;
   font-family: Libre Baskerville;
   z-index: 1;
@@ -70,7 +70,7 @@ body {
 }
 
 .description p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: white;
   font-family: Libre Baskerville;
   margin: 0;
@@ -98,13 +98,13 @@ body {
 
 .permission-box h3 {
   margin-top: 0;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 
 .permission-box p {
   margin: 0.5rem 0 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
